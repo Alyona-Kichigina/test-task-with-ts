@@ -1,0 +1,84 @@
+.App {
+}
+
+.head {
+  padding: 12px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #000;
+}
+
+.sum-title {
+  margin-right: 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  width: 120px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.price {
+  width: 80px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.total {
+  width: 80px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.quantity {
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-value {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.delete {
+  background: #eeeeee;
+  font-size: 12px;
+  border: none;
+  padding: 4px 8px;
+}
+
+.link {
+  position: relative;
+  color: #8d8d8d;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.link:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -2px;
+  background: #8d8d8d;
+ }
+
+.link:hover {
+  color: #000;
+}
+
+.link:before:hover {
+  background: #000;
+}
+
+.flex {
+  display: flex;
+}
